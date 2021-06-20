@@ -1,0 +1,152 @@
+.board-navbar{
+    width: 100%;
+    height: auto;
+    padding: 0px 2px 8px 2px;
+    overflow-x: auto;
+}
+
+
+.left-bar{
+    flex: 0 1 ;
+}
+
+.input-navbar{
+    background: inherit;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    height: 32px;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin: 0 2px 0 2px;
+}
+
+
+.bg-board-btn{
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+
+.btn-board-navbar{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 32px;
+    border-radius: 3px;
+    padding: 0 12px;
+    margin: 0 2px 0 2px;
+}
+
+.board-navbar input{
+    font-size: 1rem;
+    padding: 0;
+}
+
+li.btn-board{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.board-btn-divider{
+    float: left;
+    height: 16px;
+    border-left: 1px solid  #ffffff3d;
+    margin: 8px 8px 12px 4px
+}
+
+.menu-btn{
+    border-width: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+.board-menu{
+    color: #555;
+    position: fixed;
+    flex-direction: column;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 330px;
+    padding: 20px 4px 20px 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 9px 10px 23px 0px rgba(0, 0, 0, 0.92);
+    transform: translateX(100%);
+    transition: transform .6s;
+    z-index: 1;
+    overflow-y: hide;
+    border-radius: 3px;
+    small{
+        font-size: .75rem;
+        margin-left: 4px;
+    }
+    
+    .full-activty{
+        margin-bottom: 15px;
+    }
+    
+    h1{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .header-side-bar{
+        border-bottom: 1px solid #333;
+    }
+    .active-list{
+        overflow-y: auto;
+        padding-bottom: 8px;
+    }
+
+    .menu-header{
+        margin-inline-end: 8px;
+        padding: 4px 6px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .menu-btn{
+        font-weight: 400;
+        border: 1px solid #222;
+        padding: 6px 8px;
+    }
+
+    .menu-btn:hover{
+        border: 1px solid #3498db;
+    }
+
+
+}
+
+.btn-nav-delete{
+    transition: 0.3s;
+}
+.btn-nav-delete:hover{
+    background: #eb5a46;
+}
+
+body.activities-open .board-menu {
+    transform: translateX(0);
+}
+@media only screen and (max-width: 700px) {
+    .board-navbar{
+        margin-bottom: 4px;
+    }
+}
+
+.bg-list-wrap{
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.board-bg-list{
+    height: 500%;
+    // overflow-y: scroll;
+}
+
+.bg-board{
+    width: 300px;
+    height: 900px;
+}

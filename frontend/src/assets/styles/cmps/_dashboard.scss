@@ -1,0 +1,19 @@
+.dashboard{
+    width: 99vw;
+    height: 82vh;
+    overflow-y: hidden;
+    background: rgba(179, 179, 179, 0.897);
+    font-size: 5rem;
+    color: #222;
+    border-radius: 6px;
+}
+
+
+canvas{
+    width: 400px;
+}
+
+.dashboard-header{
+    background: rgb(255, 255, 255);
+    height: 3.5rem;
+}

@@ -1,0 +1,99 @@
+.board{
+    overflow-x: hidden;
+    padding: 2px;
+    overflow-y: hidden;
+    opacity: 0.9;
+    width: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background: url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2286x1600/24baa6609b89fb8eb0cc0aceb70eaf36/photo-1557682250-33bd709cbe85.jpg") no-repeat center/cover ;
+    background-color: rgba(245, 245, 245, 0);
+
+}
+
+.board-list{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-grow: 1;
+    height: 82vh;
+}
+
+.groups{
+    // overflow-x:scroll;
+}
+
+.add-group{
+    width: 272px;
+    margin: 0 4px;
+    height: 40px;
+    background: #ffffff3d;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+// .add-group input{
+//     background-color: transparent;
+// }
+
+.add-group:focus{
+    background: #fff;
+    box-shadow: inset 0 0 0 2px #0079bf;
+    outline: none;
+    padding: 6px 8px;
+
+}
+
+.add-group::placeholder{
+    color: rgb(255, 255, 255);
+    padding: 6px 8px;
+    font-size: 1rem;
+}
+
+.groups{
+    align-items: flex-start;
+}
+
+.group-add{
+    background-color: rgb(235, 236, 240);
+}
+
+.board-list::-webkit-scrollbar {
+    height: 12px;
+}
+  
+  /* Track */
+.board-list::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.15);
+    border-radius: 12px;
+}
+
+/* Handle */
+.board-list::-webkit-scrollbar-thumb {
+    background: rgba(240, 240, 240, 0.438);
+    border-radius: 12px;
+}
+
+/* Handle on hover */
+.board-list::-webkit-scrollbar-thumb:hover {
+}
+
+.board-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: none;
+}
+
+body.activities-open .board-screen {
+    display: block;
+}

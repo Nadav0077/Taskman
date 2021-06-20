@@ -1,0 +1,55 @@
+.user-details-container{
+    background-image: linear-gradient(to bottom right,#f0e3fc,#dff2fe,#daf5f7,#e0f6ea,#eef4e0);
+
+    img{
+        border-radius: 50%;
+        height: 20rem;
+        width: auto;
+    }
+
+    .txt-user-details{
+        gap:30px
+    }
+
+    .user-details{
+        gap:50px
+    }
+
+    .user-fullname{
+        font-size: 3rem;
+    }
+
+    .user-username{
+        font-size: 1.5rem;
+    }
+
+    .user-email{
+        font-size: 1rem;
+    }
+    .btn-logout{
+        width: 60px;
+        height: 30px;
+        background-color: rgb(255, 103, 103);
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .btn-logout:hover{
+        opacity: 0.9;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .user-details-container{
+
+        .user-details{
+            flex-direction: column;
+            align-items: center;
+        }
+        img{
+              border-radius: 50%;
+             width: 400px;
+             height: auto;
+        }
+    }
+    }

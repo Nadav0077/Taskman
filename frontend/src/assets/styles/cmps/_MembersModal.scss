@@ -1,0 +1,35 @@
+.members-modal{
+    & .member-modal:hover{
+        background-color: #e3e3e3;
+        cursor: pointer;
+    }
+    & .member-modal{
+        padding: 5px;
+        gap: 10px;
+        border-radius: 3px;
+    }
+    & .member-modal .check{
+        display: none;
+        &.checked{
+            display: block;
+        }
+    }
+}
+
+.board-members-modal{
+    & .member-modal:hover{
+        background-color: #e3e3e3;
+        cursor: pointer;
+    }
+    & .member-modal{
+        padding: 5px;
+        gap: 10px;
+        border-radius: 3px;
+    }
+    & .member-modal .check{
+        display: none;
+        &.checked{
+            display: block;
+        }
+    }
+}

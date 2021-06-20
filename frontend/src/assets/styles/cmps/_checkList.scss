@@ -1,0 +1,42 @@
+.bar-container {
+    display: flex;
+    background-color: #C8B6FF;
+    height: 5px;
+    width: 100%;
+    border-radius: 35px;
+    // justify-content: center;
+    align-items: center;
+}
+
+.bar-proccess {
+    background-color: #906bff;
+    height: 80%;
+    border-radius: 35px;
+    width: 1%;
+    transition: .3s;
+}
+
+.checklist-progress-percentage {
+    color: #5e6c84;
+    font-size: 0.8rem;
+    margin: 3px;
+}
+
+.done-todo{
+    text-decoration: line-through;
+    color: #5e6c84;
+}
+
+.done-proccess{
+    background-color: #61bd4f;
+}
+
+.trash-todo{
+   cursor: pointer;
+}
+
+.btn-del-chacklist{
+    background: rgba(158, 158, 158, 0.329);
+    border-radius: 4px;
+    padding: 4px 6px;
+}

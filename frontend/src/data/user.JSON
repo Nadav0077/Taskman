@@ -1,0 +1,13 @@
+[{
+    "_id": "u101",
+    "fullname": "Abi Abambi",
+    "username": "abi@ababmi.com",
+    "password": "aBambi123",
+    "imgUrl": "https://res.cloudinary.com/dorshaul/image/upload/v1617004801/WhatsApp_Image_2021-03-29_at_10.58.38_stxbec.jpg",
+    "mentions": [{
+        "id": "m101",
+        "boardId": "m101",
+        "taskId": "t101"
+    }]
+}]
+

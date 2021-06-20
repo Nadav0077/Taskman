@@ -1,0 +1,77 @@
+.app{
+    box-sizing: border-box;
+}
+
+.app-header{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-height: 40px;
+        overflow: hidden;
+        flex-direction: row;
+}
+
+.app-main{
+    min-height: 93vh;
+}
+
+.board {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.board-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: none;
+}
+
+
+.board-navbar {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+}
+
+.board-list {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-grow: 1;
+    height: 82vh;
+}
+
+.groups {
+    align-items: flex-start;
+}
+
+.base-overlay {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+
+.task-details {
+    width: 768px;
+    margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .board-list {
+        height: 89vh;
+    }
+}

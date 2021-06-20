@@ -1,0 +1,102 @@
+.group{
+    width: 272px;
+    margin: 0 4px;
+    background-color: #ebecf0;
+    border-radius: 3px;
+    // padding: 4px;
+}
+
+.group-title{
+    padding: 10px 8px;
+    position: relative;
+    min-height: 20px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: 5px;
+}
+.group-title input{
+    color: #555;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.task-list{
+    overflow-y: auto;    
+    max-height: 60vh;
+    overflow-x: hidden;
+}
+
+.add-task{
+    padding-left: 20px;
+    font-size: 14px;
+    background-color: transparent;
+    border: transparent;
+    width: 272px;
+    height: 38px;
+    &:hover{
+        background-color: rgba(194, 194, 194, 0.523);
+        transition: .3s;
+    }
+    margin:0 auto;
+}
+
+
+.add-group{
+    
+}
+
+.group-menu{
+    font-family: 'trellicons';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 4px;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+// TASK-LIST-SCROLLER
+/*  Scroll Helper   */
+.task-list::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+  
+  /* Track */
+.task-list::-webkit-scrollbar-track {
+    background: rgba(173, 173, 173, 0.692);
+    border-radius: 8px;
+
+}
+
+/* Handle */
+.task-list::-webkit-scrollbar-thumb {
+    background: rgba(102, 102, 102, 0.356);
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+.task-list::-webkit-scrollbar-thumb:hover {
+}
+
+.group-label{
+    height: 32px;
+    width: 32px;
+    border-radius: 5px;
+    // transition: .2s;
+    &:hover{
+        transform: scale(1.1);
+    opacity:  0.9;
+    }
+}
+
+.group-colors{
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}

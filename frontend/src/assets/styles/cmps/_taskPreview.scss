@@ -1,0 +1,96 @@
+.wrap-list-task{
+    margin: 0 4px;
+    padding: 0 4px;
+    margin-bottom: 8px;
+}
+.wrap-task-prev{
+    background: #fff;
+}
+.task-preview{
+    box-shadow: 0 1px 0 #091e4240;
+    width: 256px;
+    padding: 6px 8px 2px;
+    white-space: normal;
+    border-radius: 3px;
+    word-wrap: break-word;
+    color: rgb(53, 53, 53)
+}
+
+.task-preview:hover{
+    background: rgba(235, 235, 235, 0.534);
+    color: #091e42
+}
+
+.preview-label{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    min-width: 40px;
+    height: 8px;
+    border-radius: 4px;
+    text-align: center;
+    transition: .2s;
+    margin: 0 4px 4px 0;
+    color: #fff;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor:pointer;
+}
+
+
+.label-open{
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.3rem;
+    font-size: 12px;
+    max-width: 70px;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 16px;
+    padding: 0 8px;
+}
+
+.done-preview{
+    background-color: #61bd4f;
+    color: #fff;
+    border-radius: 3px;
+    padding: 3px;
+    height: 20px;
+    margin-right: 3px;
+
+}
+
+.task-title{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    display: block;
+    margin: 0 0 4px;
+    width: 232px;
+}
+
+.task-mini-details{
+    font-size: 12px;
+}
+
+.preview-img{
+    border-radius: 3px;
+}
+
+.details-img{
+    border-radius: 3px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.preview-icon{
+    margin-right: 3px;
+}

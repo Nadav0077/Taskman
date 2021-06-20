@@ -1,0 +1,86 @@
+@media only screen and (max-width: 850px) {
+    .details-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .line1, .line2, .line3, .line4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .task-details{
+        width: auto;
+    }
+    .comment-section .comment-input {
+        margin-top: 8px;
+        height: 30px;
+        min-width: 130px;
+        max-width: 130px;
+        width: auto;
+        margin-left: 5px;
+        margin-right: 3px;
+        border-radius: 5px;
+        border: 1px solid #c7c7c7;
+    }
+    .comment-section p.comment-txt {
+        min-width: 100px;
+        max-width: 130px;
+        width: auto;
+        padding: 6px 10px 6px 4px;
+        background-color: #fff;
+        border-radius: 3px;
+        font-size: 14px;
+        letter-spacing: .2px;
+        word-wrap: break-word;
+        border: 1px solid #c7c7c7;
+    }
+    .comment-section .new-comment {
+        height: 3vh;
+        // width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .time-comments{
+        display: none;
+    }
+
+    .btn-del-comment{
+        display: none;
+    }
+
+    .details-action{
+        display: none;
+    }
+
+    .menu-task {
+        width: 100%;
+        padding: 8px 0;
+    }
+
+    .form-comment{
+        display: flex;
+        justify-content: baseline;
+        padding: 4px 0;
+    }
+
+    .btn-send-comment{
+        margin: 4px 0;
+    }
+    .info-task{
+        width: 100%;
+    }
+    .new-comment{
+        height: 100px;
+    }
+    .comment-section{
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .main-img{
+        margin: auto;
+        width: 90%;
+    }
+
+}

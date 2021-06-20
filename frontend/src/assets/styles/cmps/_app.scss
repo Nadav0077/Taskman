@@ -1,0 +1,72 @@
+.app{
+    -webkit-text-size-adjust: 100%;
+    // position: absolute;
+    // width: 100vw;
+    // min-height: 100vh ;
+}
+
+.app-main{  
+    min-height: 93vh;
+    padding: 0;
+}
+
+input.app-input{
+    background: inherit;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+
+}
+
+.app-input:focus{
+    background: inherit;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+
+select{
+    width: 70%;
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 4px;
+    font-weight: 500;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+
+select option{
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+
+
+
+// TASK-LIST-SCROLLER
+/*  Scroll Helper   */
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: rgba(173, 173, 173, 0.692);
+    border-radius: 4px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(102, 102, 102, 0.356);
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+}
